@@ -1,5 +1,6 @@
 from typing import List
 
+# if numbers are in order you can use a list. If numbers are not in order you'll have to use dict for bucket sort.
 
 class Solution:
     def sortColors(self, nums: List[int]) -> None:
@@ -26,7 +27,7 @@ class Solution:
                 i += 1
         return nums
     
-    
+
 # class Solution:
 #     def sortColors(self, nums: List[int]) -> None:
 #         """
